@@ -1,0 +1,34 @@
+bootstrap.min.js:6 Uncaught Error: Carousel is sliding
+    at h.next (bootstrap.min.js:6)
+    at HTMLDivElement.<anonymous> (bootstrap.min.js:6)
+    at Function.each (jquery.min.js:4)
+    at init.each (jquery.min.js:4)
+    at init.h._jQueryInterface [as carousel] (bootstrap.min.js:6)
+    at HTMLAnchorElement.h._dataApiClickHandler (bootstrap.min.js:6)
+    at HTMLDocument.dispatch (jquery.min.js:5)
+    at HTMLDocument.v.handle (jquery.min.js:5)
+h.next @ bootstrap.min.js:6
+(anonymous) @ bootstrap.min.js:6
+each @ jquery.min.js:4
+each @ jquery.min.js:4
+h._jQueryInterface @ bootstrap.min.js:6
+h._dataApiClickHandler @ bootstrap.min.js:6
+dispatch @ jquery.min.js:5
+v.handle @ jquery.min.js:5
+bootstrap.min.js:6 Uncaught Error: Carousel is sliding
+    at h.next (bootstrap.min.js:6)
+    at HTMLDivElement.<anonymous> (bootstrap.min.js:6)
+    at Function.each (jquery.min.js:4)
+    at init.each (jquery.min.js:4)
+    at init.h._jQueryInterface [as carousel] (bootstrap.min.js:6)
+    at HTMLAnchorElement.h._dataApiClickHandler (bootstrap.min.js:6)
+    at HTMLDocument.dispatch (jquery.min.js:5)
+    at HTMLDocument.v.handle (jquery.min.js:5)
+h.next @ bootstrap.min.js:6
+(anonymous) @ bootstrap.min.js:6
+each @ jquery.min.js:4
+each @ jquery.min.js:4
+h._jQueryInterface @ bootstrap.min.js:6
+h._dataApiClickHandler @ bootstrap.min.js:6
+dispatch @ jquery.min.js:5
+v.handle @ jquery.min.js:5
