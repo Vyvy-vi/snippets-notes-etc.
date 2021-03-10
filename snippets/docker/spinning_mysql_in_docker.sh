@@ -13,3 +13,6 @@ docker kill mysql-server
 
 # Deleting the container
 docker rm mysql-server
+
+# Connecting to the container MySQL instance from your local computer
+mysql -P 3333 --protocol=tcp -u root -ppass
