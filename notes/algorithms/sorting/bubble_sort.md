@@ -31,7 +31,7 @@ While n > 2
 ## Implementation
 
 ```c
-int bubble_sort(int arr[], int len)
+void bubble_sort(int arr[], int len)
 {
     for (int i = 0; i < len-2; i++)
     {
