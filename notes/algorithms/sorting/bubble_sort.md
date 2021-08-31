@@ -53,4 +53,25 @@ void bubble_sort(int arr[], int len)
     }
 }
 ```
+
+Slightly Better version -
+```c
+void bubble_sort_cleaner(int arr[], int len)
+{
+    do
+    {
+        for (int i = 0; i < len - 1; i++)
+        {
+            if (arr[i] > arr[i+1])
+            {
+                int temp = arr[i];
+                arr[i] = arr[i+1];
+                arr[i+1] = temp;
+            }
+        }
+        len--;
+    } while (len > 2);
+}
+```
+
 (ref: https://www.wikiwand.com/en/Bubble_sort)
